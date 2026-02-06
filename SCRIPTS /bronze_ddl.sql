@@ -30,7 +30,7 @@ create table bronze.crm_prd_info (
       			 prd_key nvarchar(50),
       			 prd_name nvarchar(50),
       			 prd_cost int ,
-      			 prd_line nvarchar,
+      			 prd_line nvarchar(50),
       			 prd_start_date datetime,
       			 prd_end_date datetime
              )
